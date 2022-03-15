@@ -5,6 +5,11 @@
  */
 package longest.substring.without.repeating.characters;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 /**
  *
  * @author wimukthirajapaksha
@@ -16,37 +21,79 @@ public class LongestSubstringWithoutRepeatingCharacters {
      */
     
     public int lengthOfLongestSubstring(String s) {
-        int i=0;
-        int j=1;
-        int l=1;
-        while(i<=j && j<s.length() && i<s.length()) {
-            if(s.charAt(i)==s.charAt(j)) {
-                i++;
-//                while(i<s.length() && j<s.length() && s.charAt(i)==s.charAt(j)) {
-//                    i++;
-//                }
-//                j=i+1;
-            } else {
-//                j++;
-//                l=Math.max(l, j-i+1);
-                if (j<s.length()-1 && s.charAt(j)!=s.charAt(j+1)) {
-                    j++;
-                } else {
-                    i=j+1;
-                    j++;
-                }
-            }
-            System.out.println(i+" "+j);
-            
+        int[] arr=new int[256];
+        int b=0;
+        int r=0;
+        for(int i=0; i<s.length(); i++) {
+            if(b<arr[s.charAt(i)]) b=arr[s.charAt(i)];
+            arr[s.charAt(i)]=i+1;
+            if(r<i-b+1) r=i-b+1;
         }
-        return l;
+        return r;
     }
+    
+    
+//    -------------------OPTIMAL -> ALTERNATE---------------------
+//    public int lengthOfLongestSubstring(String s) {
+//        Map<Character, Integer> map=new HashMap<>();
+//        int b=0;
+//        int r=0;
+//        for(int i=0; i<s.length(); i++) {
+//            Integer t=map.put(s.charAt(i), i+1);
+//            if(t!=null && b<t) {
+//                b=t;
+//            }
+//            if(r<i-b+1) r=i-b+1;
+//        }
+//        return r;
+//    }
+    
+    
+//    -------------------ALTERNATE---------------------
+//    public int lengthOfLongestSubstring(String s) {
+//        Set<Character> set=new HashSet<>();
+//        int j=0;
+//        int i=0;
+//        int m=0;
+//        while(i<s.length()) {
+//            if(!set.contains(s.charAt(i))) {
+//                set.add(s.charAt(i++));
+//                if(set.size()>m) m=set.size();
+//            } else {
+//                while(j<i && set.contains(s.charAt(i))) {
+//                    set.remove(s.charAt(j++));
+//                }
+//            }
+//            System.out.println(set);
+//        }
+//        return m;
+//    }
+    
+    
+//    -------------------ALTERNATE---------------------
+//    public int lengthOfLongestSubstring(String s) {
+//        Set<Character> set=new HashSet<>();
+//        int j=0;
+//        int i=0;
+//        int m=0;
+//        while(j<s.length()) {
+//            if(!set.contains(s.charAt(j))) {
+//                set.add(s.charAt(j++));
+//                m=Math.max(m, set.size());
+//            } else {
+//                set.remove(s.charAt(i++));
+//            }
+//        }
+//        return m;
+//    }
     
     public static void main(String[] args) {
         LongestSubstringWithoutRepeatingCharacters l=new LongestSubstringWithoutRepeatingCharacters();
         System.out.println(l.lengthOfLongestSubstring("abcabcbb"));
         System.out.println(l.lengthOfLongestSubstring("bbbb"));
-        System.out.println(l.lengthOfLongestSubstring("pwwkew"));
+        System.out.println(l.lengthOfLongestSubstring("pwww"));
+        System.out.println(l.lengthOfLongestSubstring("dvdf"));
+        System.out.println(l.lengthOfLongestSubstring(""));
     }
     
 }
