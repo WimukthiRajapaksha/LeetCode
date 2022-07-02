@@ -20,45 +20,38 @@ public class SpiralMatrix {
     
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> ret=new ArrayList<>();
-        int[] i= new int[]{0,0};
-        int[] j= new int[]{0, matrix[0].length-1};
-        int[] k= new int[]{matrix.length-1, matrix[matrix.length-1].length-1};
-        int[] l= new int[]{matrix.length-1, 0};
+        int left=0;
+        int right=matrix[0].length;
+        int top=0;
+        int bottom=matrix.length;
         
-        while(true) {
-            if(i[0]>l[0] || i[1]>j[1]) {
-                break;
+        while(left<right && top<bottom) {
+            for(int i=left; i<right; i++) {
+                ret.add(matrix[top][i]);
             }
-            for(int a=i[1]; a<j[1]; a++) {
-                ret.add(matrix[i[0]][a]);
+            top++;
+            for(int i=top; i<bottom; i++) {
+                ret.add(matrix[i][right-1]);
             }
-            for(int a=j[0]; a<k[0]; a++) {
-                ret.add(matrix[a][j[1]]);
+            right--;
+            if(left>=right || top>=bottom) {
+                return ret;
             }
-            for(int a=k[1]; a>l[1]; a--) {
-                ret.add(matrix[k[0]][a]);
+            for(int i=right-1; i>=left; i--) {
+                ret.add(matrix[bottom-1][i]);
             }
-            for(int a=l[0]; a>i[0]; a--) {
-                ret.add(matrix[a][i[1]]);
+            bottom--;
+            for(int i=bottom-1; i>=top; i--) {
+                ret.add(matrix[i][left]);
             }
-            i[0]++;
-            i[1]++;
-            j[0]++;
-            j[1]--;
-            k[0]--;
-            k[1]--;
-            l[0]--;
-            l[1]++;
-            System.out.println(i[0]+" "+i[1]+" - "+j[0]+" "+j[1]+" - "+k[0]+" "+k[1]+" - "+l[0]+" "+l[1]);
-            System.out.println(ret);
+            left++;
         }
-        System.out.println(ret);
         return ret;
     }
     
     public static void main(String[] args) {
         SpiralMatrix s=new SpiralMatrix();
-//        s.spiralOrder(new int[][]{{1,2,3,4}, {5,6,7,8}, {9,10,11,12}});
-        s.spiralOrder(new int[][]{{1,2,3}, {4,5,6}, {7,8,9}});
+        System.out.println(s.spiralOrder(new int[][]{{1,2,3,4}, {5,6,7,8}, {9,10,11,12}}));
+        System.out.println(s.spiralOrder(new int[][]{{1,2,3}, {4,5,6}, {7,8,9}}));
     }
 }
