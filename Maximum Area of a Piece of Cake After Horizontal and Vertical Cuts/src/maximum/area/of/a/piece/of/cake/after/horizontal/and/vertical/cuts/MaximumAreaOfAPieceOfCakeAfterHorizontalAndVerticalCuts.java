@@ -74,7 +74,7 @@ public class MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts {
                 mv=verticalCuts[i]-verticalCuts[i-1];
             }
         }
-        return (int)((mh%1000000007*mv%1000000007));
+        return (int)(((long)mh%1000000007*mv%1000000007));
     }
     
     public static void main(String[] args) {
