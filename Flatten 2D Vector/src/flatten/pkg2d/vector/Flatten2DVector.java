@@ -14,6 +14,8 @@ import java.util.List;
  * @author wimukthirajapaksha
  */
 
+//https://www.lintcode.com/problem/601/description
+
 class Vector2D implements Iterator<Integer> {
     int currListIndex;
     int currItemIndex;

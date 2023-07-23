@@ -12,6 +12,8 @@ import java.util.Arrays;
  * @author wimukthirajapaksha
  */
 
+//https://aaronice.gitbook.io/lintcode/data_structure/design-tic-tac-toe
+
 class TicTacToe {
     int[] col;
     int[] row;

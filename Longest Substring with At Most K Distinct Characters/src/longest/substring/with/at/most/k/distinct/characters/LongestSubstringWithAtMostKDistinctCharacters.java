@@ -11,6 +11,9 @@ import java.util.Arrays;
  *
  * @author wimukthirajapaksha
  */
+
+//https://www.lintcode.com/problem/386/description
+
 public class LongestSubstringWithAtMostKDistinctCharacters {
 
     /**

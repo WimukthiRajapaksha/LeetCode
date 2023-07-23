@@ -425,3 +425,321 @@
 /Palindromic Substrings/build/
 /Daily Temperatures/nbproject/private/
 /Daily Temperatures/build/
+/Rotting Oranges/nbproject/private/
+/Rotting Oranges/build/
+/Longest Common Subsequence/nbproject/private/
+/Longest Common Subsequence/build/
+/Subarray Sum Equals K/nbproject/private/
+/Subarray Sum Equals K/build/
+/Trapping Rain Water/nbproject/private/
+/Trapping Rain Water/build/
+/N-Queens/nbproject/private/
+/N-Queens/build/
+/Longest Valid Parentheses/nbproject/private/
+/Longest Valid Parentheses/build/
+/Reverse Nodes in k-Group/nbproject/private/
+/Reverse Nodes in k-Group/build/
+/First Missing Positive/nbproject/private/
+/First Missing Positive/build/
+/Edit Distance/nbproject/private/
+/Edit Distance/build/
+/Binary Tree Maximum Path Sum/nbproject/private/
+/Binary Tree Maximum Path Sum/build/
+/Find Median from Data Stream/nbproject/private/
+/Find Median from Data Stream/build/
+/Merge k Sorted Lists/nbproject/private/
+/Middle of the Linked List/nbproject/private/
+/Middle of the Linked List/build/
+/Merge k Sorted Lists/build/
+/Minimum Window Substring/nbproject/private/
+/Minimum Window Substring/build/
+/Sliding Window Maximum/nbproject/private/
+/Sliding Window Maximum/build/
+/Largest Rectangle in Histogram/nbproject/private/
+/Largest Rectangle in Histogram/build/
+/Range Sum of BST/nbproject/private/
+/Range Sum of BST/build/
+/Leaf-Similar Trees/nbproject/private/
+/Leaf-Similar Trees/build/
+/Minimum Falling Path Sum/nbproject/private/
+/Minimum Falling Path Sum/build/
+/Wiggle Sort II/nbproject/private/
+/Wiggle Sort II/build/
+/Longest Nice Substring/nbproject/private/
+/Longest Nice Substring/build/
+/Maximum Binary Tree/nbproject/private/
+/Maximum Binary Tree/build/
+/Increasing Triplet Subsequence/nbproject/private/
+/Increasing Triplet Subsequence/build/
+/Longest Substring with At Least K Repeating Characters/build/
+/Serialize and Deserialize Binary Tree/nbproject/private/
+/Serialize and Deserialize Binary Tree/build/
+/Count Pairs Of Similar Strings/nbproject/private/
+/Count Pairs Of Similar Strings/build/
+/Smallest Value After Replacing With Sum of Prime Factors/nbproject/private/
+/Smallest Value After Replacing With Sum of Prime Factors/build/
+/Add Edges to Make Degrees of All Nodes Even/nbproject/private/
+/Add Edges to Make Degrees of All Nodes Even/build/
+/Longest Increasing Path in a Matrix/nbproject/private/
+/Longest Increasing Path in a Matrix/build/
+/Count of Smaller Numbers After Self/nbproject/private/
+/Find if Path Exists in Graph/nbproject/private/
+/Find if Path Exists in Graph/build/
+/Keys and Rooms/nbproject/private/
+/Keys and Rooms/build/
+/Possible Bipartition/nbproject/private/
+/Possible Bipartition/build/
+/Sum of Distances in Tree/nbproject/private/
+/Sum of Distances in Tree/build/
+/Maximum Bags With Full Capacity of Rocks/nbproject/private/
+/Maximum Bags With Full Capacity of Rocks/build/
+/Count of Smaller Numbers After Self/build/
+/Range Sum Query 2D - Mutable/nbproject/private/
+/Range Sum Query 2D - Mutable/build/
+/Word Break II/nbproject/private/
+/Word Break II/build/
+/Delete Columns to Make Sorted/nbproject/private/
+/Delete Columns to Make Sorted/build/
+/The Skyline Problem/nbproject/private/
+/The Skyline Problem/build/
+/Minimum Rounds to Complete All Tasks/nbproject/private/
+/Minimum Rounds to Complete All Tasks/build/
+/Minimum Number of Arrows to Burst Balloons/nbproject/private/
+/Minimum Number of Arrows to Burst Balloons/build/
+/Maximum Ice Cream Bars/nbproject/private/
+/Maximum Ice Cream Bars/build/
+/Word Ladder/nbproject/private/
+/Word Ladder/build/
+/Number of Nodes in the Sub-Tree With the Same Label/nbproject/private/
+/Number of Nodes in the Sub-Tree With the Same Label/build/
+/Max Points on a Line/nbproject/private/
+/Max Points on a Line/build/
+/Minimum Time to Collect All Apples in a Tree/nbproject/private/
+/Minimum Time to Collect All Apples in a Tree/build/
+/Longest Path With Different Adjacent Characters/nbproject/private/
+/Longest Path With Different Adjacent Characters/build/
+/Word Search II/nbproject/private/
+/Word Search II/build/
+/Regular Expression Matching/nbproject/private/
+/Regular Expression Matching/build/
+/Wildcard Matching/nbproject/private/
+/Wildcard Matching/build/
+/Snakes and Ladders/nbproject/private/
+/Snakes and Ladders/build/
+/Find Closest Node to Given Two Nodes/nbproject/private/
+/Find Closest Node to Given Two Nodes/build/
+/Cheapest Flights Within K Stops/nbproject/private/
+/Cheapest Flights Within K Stops/build/
+/Verify Preorder Serialization of a Binary Tree/nbproject/private/
+/Verify Preorder Serialization of a Binary Tree/build/
+/House Robber III/nbproject/private/
+/House Robber III/build/
+/Integer Break/nbproject/private/
+/Integer Break/build/
+/Design Twitter/nbproject/private/
+/Design Twitter/build/
+/LFU Cache/nbproject/private/
+/LFU Cache/build/
+/Count Numbers with Unique Digits/nbproject/private/
+/Count Numbers with Unique Digits/build/
+/N-th Tribonacci Number/nbproject/private/
+/N-th Tribonacci Number/build/
+/Greatest Common Divisor of Strings/nbproject/private/
+/Greatest Common Divisor of Strings/build/
+/Best Team With No Conflicts/nbproject/private/
+/Best Team With No Conflicts/build/
+/Verifying an Alien Dictionary/nbproject/private/
+/Verifying an Alien Dictionary/build/
+/Water and Jug Problem/nbproject/private/
+/Water and Jug Problem/build/
+/Largest Divisible Subset/nbproject/private/
+/Largest Divisible Subset/build/
+/Fruit Into Baskets/nbproject/private/
+/Fruit Into Baskets/build/
+/Permutation in String/nbproject/private/
+/Permutation in String/build/
+/Find K Pairs with Smallest Sums/nbproject/private/
+/Find K Pairs with Smallest Sums/build/
+/Naming a Company/nbproject/private/
+/Naming a Company/build/
+/Guess Number Higher or Lower II/nbproject/private/
+/Guess Number Higher or Lower II/build/
+/Linked List Random Node/nbproject/private/
+/Linked List Random Node/build/
+/Mini Parser/nbproject/private/
+/Mini Parser/build/
+/Lexicographical Numbers/nbproject/private/
+/Lexicographical Numbers/build/
+/Longest Absolute File Path/nbproject/private/
+/Longest Absolute File Path/build/
+/Capacity To Ship Packages Within D Days/nbproject/private/
+/Capacity To Ship Packages Within D Days/build/
+/Single Element in a Sorted Array/nbproject/private/
+/Single Element in a Sorted Array/build/
+/IPO/nbproject/private/
+/IPO/build/
+/Minimize Deviation in Array/nbproject/private/
+/Minimize Deviation in Array/build/
+/Elimination Game/nbproject/private/
+/Elimination Game/build/
+/Rotate Function/nbproject/private/
+/Rotate Function/build/
+/Integer Replacement/nbproject/private/
+/Integer Replacement/build/
+/Random Pick Index/nbproject/private/
+/Random Pick Index/build/
+/Evaluate Division/nbproject/private/
+/Evaluate Division/build/
+/Nth Digit/nbproject/private/
+/Nth Digit/build/
+/Remove Digit From Number to Maximize Result/nbproject/private/
+/Remove Digit From Number to Maximize Result/build/
+/Remove K Digits/nbproject/private/
+/Remove K Digits/build/
+/VideoGame/nbproject/private/
+/VideoGame/build/
+/Kth Missing Positive Number/nbproject/private/
+/Kth Missing Positive Number/build/
+/Queue Reconstruction by Height/nbproject/private/
+/Queue Reconstruction by Height/build/
+/Arithmetic Slices/nbproject/private/
+/Arithmetic Slices/build/
+/Trapping Rain Water II/nbproject/private/
+/Trapping Rain Water II/build/
+/Split Array Largest Sum/nbproject/private/
+/Split Array Largest Sum/build/
+/Minimized Maximum of Products Distributed to Any Store/nbproject/private/
+/Minimized Maximum of Products Distributed to Any Store/build/
+/Koko Eating Bananas/nbproject/private/
+/Koko Eating Bananas/build/
+/Maximum Candies Allocated to K Children/nbproject/private/
+/Maximum Candies Allocated to K Children/build/
+/Frog Jump/nbproject/private/
+/132 Pattern/nbproject/private/
+/132 Pattern/build/
+/Heaters/nbproject/private/
+/Heaters/build/
+/K-diff Pairs in an Array/nbproject/private/
+/K-diff Pairs in an Array/build/
+/Minimum Absolute Difference in BST/nbproject/private/
+/Minimum Absolute Difference in BST/build/
+/Valid Triangle Number/nbproject/private/
+/Valid Triangle Number/build/
+/Sum of Square Numbers/nbproject/private/
+/Sum of Square Numbers/build/
+/Find K Closest Elements/nbproject/private/
+/Find K Closest Elements/build/
+/Find Closest Number to Zero/nbproject/private/
+/Find Closest Number to Zero/build/
+/Find Minimum in Rotated Sorted Array II/nbproject/private/
+/Find Minimum in Rotated Sorted Array II/build/
+/Design Browser History/nbproject/private/
+/Design Browser History/build/
+/Can Place Flowers/nbproject/private/
+/Can Place Flowers/build/
+/Count the Number of Fair Pairs/nbproject/private/
+/Count the Number of Fair Pairs/build/
+/Maximum Length of Repeated Subarray/nbproject/private/
+/Maximum Length of Repeated Subarray/build/
+/Count of Range Sum/nbproject/private/
+/Count of Range Sum/build/
+/My Calendar II/nbproject/private/
+/My Calendar II/build/
+/Merge Strings Alternately/nbproject/private/
+/Merge Strings Alternately/build/
+/String Compression/nbproject/private/
+/String Compression/build/
+/Max Number of K-Sum Pairs/nbproject/private/
+/Max Number of K-Sum Pairs/build/
+/Maximum Average Subarray I/nbproject/private/
+/Maximum Average Subarray I/build/
+/Maximum Number of Vowels in a Substring of Given Length/nbproject/private/
+/Maximum Number of Vowels in a Substring of Given Length/build/
+/Max Consecutive Ones III/nbproject/private/
+/Max Consecutive Ones III/build/
+/Longest Subarray of 1's After Deleting One Element/nbproject/private/
+/Longest Subarray of 1's After Deleting One Element/build/
+/Number of Subsequences That Satisfy the Given Sum Condition/nbproject/private/
+/Number of Subsequences That Satisfy the Given Sum Condition/build/
+/Find Pivot Index/nbproject/private/
+/Find Pivot Index/build/
+/Find the Difference of Two Arrays/nbproject/private/
+/Find the Difference of Two Arrays/build/
+/Unique Number of Occurrences/nbproject/private/
+/Unique Number of Occurrences/build/
+/Determine if Two Strings Are Close/nbproject/private/
+/Determine if Two Strings Are Close/build/
+/Equal Row and Column Pairs/nbproject/private/
+/Equal Row and Column Pairs/build/
+/Removing Stars From a String/nbproject/private/
+/Removing Stars From a String/build/
+/Asteroid Collision/nbproject/private/
+/Asteroid Collision/build/
+/Number of Recent Calls/nbproject/private/
+/Number of Recent Calls/build/
+/Dota2 Senate/nbproject/private/
+/Dota2 Senate/build/
+/Uncrossed Lines/nbproject/private/
+/Uncrossed Lines/build/
+/Solving Questions With Brainpower/nbproject/private/
+/Solving Questions With Brainpower/build/
+/Maximum Twin Sum of a Linked List/nbproject/private/
+/Maximum Twin Sum of a Linked List/build/
+/Minimum Number of Vertices to Reach All Nodes/nbproject/private/
+/Minimum Number of Vertices to Reach All Nodes/build/
+/Time Needed to Inform All Employees/nbproject/private/
+/Time Needed to Inform All Employees/build/
+/Number of Provinces/nbproject/private/
+/Number of Provinces/build/
+/Detonate the Maximum Bombs/nbproject/private/
+/Detonate the Maximum Bombs/build/
+/Shortest Path in Binary Matrix/nbproject/private/
+/Shortest Path in Binary Matrix/build/
+/Design Underground System/nbproject/private/
+/Design Underground System/build/
+/Check If It Is a Straight Line/nbproject/private/
+/Check If It Is a Straight Line/build/
+/Design HashSet/nbproject/private/
+/Design HashSet/build/
+/Can Make Arithmetic Progression From Sequence/nbproject/private/
+/Can Make Arithmetic Progression From Sequence/build/
+/Minimum Flips to Make a OR b Equal to c/nbproject/private/
+/Minimum Flips to Make a OR b Equal to c/build/
+/Find Smallest Letter Greater Than Target/nbproject/private/
+/Find Smallest Letter Greater Than Target/build/
+/Maximum Value at a Given Index in a Bounded Array/nbproject/private/
+/Maximum Value at a Given Index in a Bounded Array/build/
+/Snapshot Array/nbproject/private/
+/Snapshot Array/build/
+/K Radius Subarray Averages/nbproject/private/
+/K Radius Subarray Averages/build/
+/Number of Increasing Paths in a Grid/nbproject/private/
+/Number of Increasing Paths in a Grid/build/
+/Minimum Cost to Make Array Equal/nbproject/private/
+/Minimum Cost to Make Array Equal/build/
+/Minimum Amount of Time to Fill Cups/nbproject/private/
+/Minimum Amount of Time to Fill Cups/build/
+/Minimum Operations to Make All Array Elements Equal/nbproject/private/
+/Minimum Operations to Make All Array Elements Equal/build/
+/Minimum Moves to Equal Array Elements II/nbproject/private/
+/Minimum Moves to Equal Array Elements II/build/
+/Best Time to Buy and Sell Stock with Transaction Fee/nbproject/private/
+/Best Time to Buy and Sell Stock with Transaction Fee/build/
+/Longest Arithmetic Subsequence/nbproject/private/
+/Longest Arithmetic Subsequence/build/
+/Destroy Sequential Targets/nbproject/private/
+/Destroy Sequential Targets/build/
+/Tallest Billboard/nbproject/private/
+/Tallest Billboard/build/
+/Count All Possible Routes/nbproject/private/
+/Count All Possible Routes/build/
+/Total Cost to Hire K Workers/nbproject/private/
+/Total Cost to Hire K Workers/build/
+/Path with Maximum Probability/nbproject/private/
+/Path with Maximum Probability/build/
+/Shortest Path to Get All Keys/nbproject/private/
+/Shortest Path to Get All Keys/build/
+/Knight Probability in Chessboard/nbproject/private/
+/Knight Probability in Chessboard/build/
+/All Possible Full Binary Trees/nbproject/private/
+/All Possible Full Binary Trees/build/

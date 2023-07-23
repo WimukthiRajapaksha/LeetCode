@@ -16,6 +16,8 @@ import java.util.List;
  * @author wimukthirajapaksha
  */
 
+//https://www.lintcode.com/problem/920/description
+
 class Interval {
     int start, end;
     Interval(int start, int end) {

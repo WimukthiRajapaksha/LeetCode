@@ -11,6 +11,9 @@ import java.util.Arrays;
  *
  * @author wimukthirajapaksha
  */
+
+//https://www.lintcode.com/problem/508/description
+
 public class WiggleSort {
 
     /**

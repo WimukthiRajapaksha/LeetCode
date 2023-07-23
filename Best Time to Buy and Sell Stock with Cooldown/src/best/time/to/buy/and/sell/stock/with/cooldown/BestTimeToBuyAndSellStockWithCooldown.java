@@ -16,7 +16,7 @@ public class BestTimeToBuyAndSellStockWithCooldown {
     /**
      * @param args the command line arguments
      */
-    
+        
 //    public int maxProfit(int[] prices) {
 //        if(prices.length==1) return 0;
 //        int f=0;
@@ -35,19 +35,21 @@ public class BestTimeToBuyAndSellStockWithCooldown {
 //    }
     
     
-    
+//    ---------OPTIMAL -> O(N), O(N)---------------
     public int maxProfit(int[] prices) {
         if(prices.length==1) return 0;
-        int[] dp=new int[prices.length];
+        int[] s0=new int[prices.length];
+        int[] s1=new int[prices.length];
+        int[] s2=new int[prices.length];
+        s0[0]=0;
+        s1[0]=-prices[0];
+        s2[0]=Integer.MIN_VALUE;
         for(int i=1; i<prices.length; i++) {
-            if(prices[i-1]<prices[i]) {
-                dp[i]=dp[i-1]+prices[i]-prices[i-1];
-            } else {
-                if(i>2) dp[i]=dp[i-2];
-            }
+            s0[i]=Math.max(s0[i-1], s2[i-1]);
+            s1[i]=Math.max(s1[i-1], s0[i-1]-prices[i]);
+            s2[i]=s1[i-1]+prices[i];
         }
-        System.out.println(Arrays.toString(dp));
-        return Math.max(dp[dp.length-1], dp[dp.length-2]);
+        return Math.max(s0[s0.length-1], s2[s2.length-1]);
     }
     
     public static void main(String[] args) {
