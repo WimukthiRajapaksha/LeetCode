@@ -35,30 +35,31 @@ class TreeNode {
 }
 
 public class AllPossibleFullBinaryTrees {
-    public List<TreeNode> allPossibleFBT(int n) {
-        if(n%2==0) return new ArrayList<>();
-        Map<Integer, List<TreeNode>> map=new HashMap<>();
-        map.put(1, Arrays.asList(new TreeNode()));
-        for(int i=3; i<=n; i+=2) {
-            help(map, 1, i-2);
-        }
-        return map.get(n);
-    }
+//    ------------OPTIMAL -> BOTTOM-UP -> O(2^(N/2)), O(N*2^(N/2))--------------
+//    public List<TreeNode> allPossibleFBT(int n) {
+//        if(n%2==0) return new ArrayList<>();
+//        Map<Integer, List<TreeNode>> map=new HashMap<>();
+//        map.put(1, Arrays.asList(new TreeNode()));
+//        for(int i=3; i<=n; i+=2) {
+//            help(map, 1, i-2);
+//        }
+//        return map.get(n);
+//    }
+//    
+//    private void help(Map<Integer, List<TreeNode>> map, int l, int r) {
+//        if(l<0 || r<0) return;
+//        map.putIfAbsent(l+r+1, new ArrayList<>());
+//        for(TreeNode le: map.get(l)) {
+//            for(TreeNode ri: map.get(r)) {
+//                TreeNode node=new TreeNode(0, le, ri);
+//                map.get(l+r+1).add(node);
+//            }
+//        }
+//        help(map, l+2, r-2);
+//    }
     
-    private void help(Map<Integer, List<TreeNode>> map, int l, int r) {
-        if(l<0 || r<0) return;
-        map.putIfAbsent(l+r+1, new ArrayList<>());
-        for(TreeNode le: map.get(l)) {
-            for(TreeNode ri: map.get(r)) {
-                TreeNode node=new TreeNode(0, le, ri);
-                map.get(l+r+1).add(node);
-            }
-        }
-        help(map, l+2, r-2);
-    }
     
-    
-//    ---------------OPTIMAL -> O(2^(N/2)), O(N*2^(N/2))----------------
+//    ---------------OPTIMAL -> TOP-DOWN -> O(2^(N/2)), O(N*2^(N/2))----------------
 //    Map<Integer, List<TreeNode>> map=new HashMap<>();
 //    public List<TreeNode> allPossibleFBT(int n) {
 //        if(n%2==0) return new ArrayList<>();
@@ -76,6 +77,34 @@ public class AllPossibleFullBinaryTrees {
 //        }
 //        return map.get(n);
 //    }
+    
+    
+//    ---------------OPTIMAL -> BOTTOM-UP -> O(2^(N/2)), O(N*2^(N/2))----------------
+    public List<TreeNode> allPossibleFBT(int n) {
+        if(n%2==0) return new ArrayList<>();
+        Map<Integer, List<TreeNode>> map=new HashMap<>();
+        List<TreeNode> first=new ArrayList<>();
+        first.add(new TreeNode());
+        map.put(1, first);
+        return help(map, n);
+    }
+
+    private List<TreeNode> help(Map<Integer, List<TreeNode>> map, int i) {
+        if(map.containsKey(i)) return map.get(i);
+        List<TreeNode> temp=new ArrayList<>();
+        for(int j=1; j<i-1; j+=2) {
+            for(TreeNode left: help(map, j)) {
+                for(TreeNode right: help(map, i-j-1)) {
+                    TreeNode node=new TreeNode();
+                    node.left=left;
+                    node.right=right;
+                    temp.add(node);
+                }
+            }
+        }
+        map.put(i, temp);
+        return temp;
+    }
     
     public static void main(String[] args) {
         AllPossibleFullBinaryTrees a=new AllPossibleFullBinaryTrees();
